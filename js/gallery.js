@@ -95,8 +95,9 @@ galleryContainer.addEventListener('click', event => {
         } else {
 
             instance = basicLightbox.create(`
-        <img src="${largeImageURL}" width="800" height="600">
-      `);
+    <img src="${largeImageURL}">
+`);
+
 
 
             const closeOnEscape = (event) => {
